@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+import 'bulma/css/bulma.css';
+import './styles/index.scss';
+
 import { App } from './App';
+import { AuthProvider } from './components/Auth/AuthContext';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <AuthProvider>
     <App />
-  </React.StrictMode>,
+  </AuthProvider>,
   document.getElementById('root'),
 );
