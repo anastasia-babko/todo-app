@@ -1,9 +1,2 @@
-# React TypeScript Starter Pack
-
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+# To Do App
+1. An interactive website created using functional components, hooks, fetch, where you can add, edit, delete and track completeness of your tasks.
